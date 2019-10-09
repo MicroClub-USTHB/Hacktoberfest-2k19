@@ -5,6 +5,6 @@ Bienvenue dans le dépôt pour les membres du Micro Club. Ce dépôt est dédié
 # NOTE
 
 NE SOUMETTEZ pas de "pull requests" au hasard ou de manière alétoire.
-Vérifiez si une question (issue) n'existe pas déjà pour le bug que vous avez repéré ou pour l'élément que vous souhaiter ajouter au projet. Vérifiez également si quelqu'un ne travail pas déjà sur le bug ou la fonction que vous souhaitez ajouter. Si ce n'est pas la cas, vous ouvez créer une "issue" et vous y atteler !
+Vérifiez si une question (issue) n'existe pas déjà pour le bug que vous avez repéré ou pour l'élément que vous souhaitez ajouter au projet. Vérifiez également si quelqu'un ne travail pas déjà sur le bug ou la fonction que vous souhaitez ajouter. Si ce n'est pas la cas, vous pouvez créer une "issue" et vous y atteler !
 
 Happy hacking!! (Bidouillez bien ;-)!)
