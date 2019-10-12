@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1545429807 source:c:\users\alaa\desktop\c\list\main.c
+	<dirent.h>
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	"ListesChaines.h"
+	<stdio.h>
+
+1545429928 c:\users\alaa\desktop\c\list\listeschaines.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
