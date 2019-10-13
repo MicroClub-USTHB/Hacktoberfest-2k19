@@ -4,7 +4,7 @@
 Tipaza/Algeria
 
 ### Academics
-e.g: Uiversity of Science and Technology Houari Boumediene, Algeria. (USTHB)
+Uiversity of Science and Technology Houari Boumediene, Algeria. (USTHB)
 - Geography and Spatial Planning.
 
 ### Interests
