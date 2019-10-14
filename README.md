@@ -1,5 +1,5 @@
 # Micro Club does Hacktoberfest 2019!
-## 🚀✨ Contribution friendly for Begginers & First timers✨🚀
+## 🚀✨ Contribution friendly for Beginners & First timers✨🚀
 ### (open to public contribution)
 
 ## Micro Club does Hacktoberfest!
