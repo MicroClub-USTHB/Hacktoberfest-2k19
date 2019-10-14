@@ -22,8 +22,8 @@ e.g: Uiversity of Science and Technology Houari Boumediene, Algeria. (USTHB)
 - e.g: video games developer.
 
 ### Profile Link
-[GitHib username](GitHub profile link)
-[Linkedin name](Linkedin profile url link)
+- [GitHib username](GitHub profile link)
+- [Linkedin name](Linkedin profile url link)
 
 ### GitHub Page/Website (if availble)
 [GitHib Page name](GitHub Page url)
