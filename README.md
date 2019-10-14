@@ -7,12 +7,14 @@ A Repository for Micro Club members dedicated for Hacktoberfest 6th edition (2k1
 
 ## What is Hacktoberfest? 
 #### "Changing the open source cocmmunity, one pull request at a time."- Digital Ocean.
-A month-long celebration from **October 1st - 31st** sponsored by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). This year an all backgrounds and experience levels open source community platform ['DEV'](https://dev.to/) has joined the party as an event partner!
+Hacktoberfest is a month-long celebration from **October 1st - 31st** sponsored by [Digital Ocean](https://www.digitalocean.com/) and [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). This year an all backgrounds and experience levels open source community platform ['DEV'](https://dev.to/) has joined the party as an event partner!
 The first **50,000** people around the world to complete 4 pull requests contribution to any public repo will recieve a **FREE LIMITED EDITON T-SHIRT & COOL SWAGS!**
 
-- Hacktoberfest is open to everyone in our global community!
-- Pull requests can be made in any GitHub-hosted repositories/projects.
-- Sign up anytime between October 1 and October 31.
+### For more info about the event: [Hacktoberfest event website](https://hacktoberfest.digitalocean.com/)
+
+> - **Hacktoberfest is open to everyone in the global community!**
+> - **Pull requests can be made in any GitHub-hosted repositories/projects.**
+> - **Sign up anytime between October 1 and October 31.**
 
 
 ## How to participate and contribute to this project?
