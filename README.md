@@ -2,6 +2,8 @@
 ## 🚀✨ Contribution friendly for Beginners & First timers✨🚀
 ### (open to public contribution)
 
+![Micro Club does Hacktoberfest](https://www.pixenli.com/image/TNHZG723)
+
 ## Micro Club does Hacktoberfest!
 A Repository for Micro Club members dedicated for Hacktoberfest 6th edition (2k19). The purpose of this repo is getting MC members and any other begginers into the open source community and help them develop and share projects and knowledge with other students, profesionals and open source enthousiasts while having a fun challenge !! 
 
