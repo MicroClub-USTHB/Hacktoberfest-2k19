@@ -8,7 +8,7 @@
 A Repository for Micro Club members dedicated for Hacktoberfest 6th edition (2k19). The purpose of this repo is getting MC members and any other begginers into the open source community and help them develop and share projects and knowledge with other students, profesionals and open source enthousiasts while having a fun challenge !! 
 
 ## What is Hacktoberfest? 
-#### "Changing the open source cocmmunity, one pull request at a time."- Digital Ocean.
+#### "Changing the open source community, one pull request at a time."- Digital Ocean.
 Hacktoberfest is a month-long celebration from **October 1st - 31st** sponsored by [Digital Ocean](https://www.digitalocean.com/) and [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). This year an all backgrounds and experience levels open source community platform ['DEV'](https://dev.to/) has joined the party as an event partner!
 The first **50,000** people around the world to complete 4 pull requests contribution to any public repo will recieve a **FREE LIMITED EDITON T-SHIRT & COOL SWAGS!**
 
