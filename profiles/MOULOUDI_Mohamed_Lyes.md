@@ -20,4 +20,4 @@ CS student in University of Science and Technology Houari Boumedien(USTHB)
 
 ### Profile Links
 * [Github](https://github.com/Qtty)
-* [Linkedin](mohamed-lyes-mouloudi-4764b7161)
+* [Linkedin](https://www.linkedin.com/in/mohamed-lyes-mouloudi-4764b7161)
