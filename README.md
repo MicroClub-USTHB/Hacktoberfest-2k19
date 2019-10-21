@@ -15,6 +15,7 @@
 ![GitHub issues](https://img.shields.io/github/issues-raw/MicroClub-USTHB/Hacktoberfest-2k19?style=for-the-badge)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/MicroClub-USTHB/Hacktoberfest-2k19?style=for-the-badge)
 
+
 ## Micro Club does Hacktoberfest!
 A Repository for Micro Club members dedicated for Hacktoberfest 6th edition (2k19). The purpose of this repo is getting MC members and any other begginers into the open source community and help them develop and share projects and knowledge with other students, professionals and open source enthousiasts while having a fun challenge !! 
 
