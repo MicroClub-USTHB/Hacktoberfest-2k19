@@ -1,21 +1,37 @@
 # Micro Club does Hacktoberfest 2019!
-## 🚀✨ Contribution friendly for Begginers & First timers✨🚀
+## 🚀✨ Contribution friendly for Beginners & First timers✨🚀
 ### (open to public contribution)
 
+![Micro Club does Hacktoberfest](https://www.pixenli.com/image/TNHZG723)
+
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-175x29.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2019/MicroClub-USTHB/Hacktoberfest-2k19?color=%23d10fb8&label=Micro%20Club%20does%20Hacktoberfest&style=for-the-badge)
+![GitHub Contributors](https://img.shields.io/github/contributors/MicroClub-USTHB/Hacktoberfest-2k19?logo=GitHub&style=for-the-badge)
+
+![GitHub Watchers](https://img.shields.io/github/watchers/MicroClub-USTHB/Hacktoberfest-2k19?label=Watch&logo=GitHub&style=for-the-badge)
+![GitHub Stars](https://img.shields.io/github/stars/MicroClub-USTHB/Hacktoberfest-2k19?logo=GitHub&style=for-the-badge)
+![GitHub Forks](https://img.shields.io/github/forks/MicroClub-USTHB/Hacktoberfest-2k19?label=Forks&logo=GitHub&style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues-raw/MicroClub-USTHB/Hacktoberfest-2k19?style=for-the-badge)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/MicroClub-USTHB/Hacktoberfest-2k19?style=for-the-badge)
+
 ## Micro Club does Hacktoberfest!
-A Repository for Micro Club members dedicated for Hacktoberfest 6th edition (2k19). The purpose of this repo is getting MC members and any other begginers into the open source community and help them develop and share projects and knowledge with other students, profesionals and open source enthousiasts while having a fun challenge !! 
+A Repository for Micro Club members dedicated for Hacktoberfest 6th edition (2k19). The purpose of this repo is getting MC members and any other begginers into the open source community and help them develop and share projects and knowledge with other students, professionals and open source enthousiasts while having a fun challenge !! 
 
 ## What is Hacktoberfest? 
-#### "Changing the open source cocmmunity, one pull request at a time."- Digital Ocean.
-A month-long celebration from **October 1st - 31st** sponsored by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). This year an all backgrounds and experience levels open source community platform ['DEV'](https://dev.to/) has joined the party as an event partner!
+#### "Changing the open source community, one pull request at a time."- Digital Ocean.
+Hacktoberfest is a month-long celebration from **October 1st - 31st** sponsored by [Digital Ocean](https://www.digitalocean.com/) and [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). This year an all backgrounds and experience levels open source community platform ['DEV'](https://dev.to/) has joined the party as an event partner!
 The first **50,000** people around the world to complete 4 pull requests contribution to any public repo will recieve a **FREE LIMITED EDITON T-SHIRT & COOL SWAGS!**
 
-- Hacktoberfest is open to everyone in our global community!
-- Pull requests can be made in any GitHub-hosted repositories/projects.
-- Sign up anytime between October 1 and October 31.
+### For more info about the event: [Hacktoberfest event website](https://hacktoberfest.digitalocean.com/)
+
+> - **Hacktoberfest is open to everyone in the global community!**
+> - **Pull requests can be made in any GitHub-hosted repositories/projects.**
+> - **Sign up anytime between October 1 and October 31.**
 
 
 ## How to participate and contribute to this project?
+![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest%20participation%3A-How%20to%20get%20involved%20and%20win%20that%20AEWSOME%20LIMITED%20EDITION%20T--SHIRT%3F%20Check%20this-orange?style=for-the-badge)
 
 Create your very first **Pull Request** to any public repository on GitHub and contribute to the open source developer community.
 
@@ -89,8 +105,12 @@ this commande adds all different changes u made to the branch.
 * ``` Click button "Compare & pull request" ``` 
 * Write a short comment about the changes your contributed.
 
- That's it, you just completed yout first contribution and got your first Pull Request! All PRs will be merged asap.
- 
+### That's it, you Git it!!!
+If you liked this experience Star :star2: the repo (clikc **Star** button near Fork button).
+That's it, you just completed yout first contribution and got your first Pull Request!
+All PRs will be merged asap.
+
+![Website](https://img.shields.io/website?color=important&down_message=Hacktoberfest%20progress&label=Check%20profile%27s&logo=github&style=for-the-badge&up_color=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile&up_message=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile&url=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile)
 
 `------------------------------------------------------------------`
 
