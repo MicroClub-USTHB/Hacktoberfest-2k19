@@ -45,13 +45,12 @@ Here are 3 quick guided ways to contribute to this project:
 Choose one or all 3, make a pull request for your work and wait for it to be merged!
 
 ### Rules:
-> * _Make sure to sign up first to the event website using your GitHub account: [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)_
-> * Everyone is welcome! Begginers, veterans, non developpers all around the world!
-> * All uploaded projects should got into the **_/Projects_** folder inside their dedicated topic folder e.g: **_/Projects/Web_**
-> * Always check the repo's **issues** to avoid duplicates
-> * Every contribution is welcome (project upload, code fix, design, tutorials, documentation, fixing typos ...etc) but we prefer **quality over quantity** so avoid making 5 PRs to fix 5 obvious grammar mistakes juste to get the challenge completed faster.
-> * If the PR doesnt aligne with the event and the repo's rules then it will be marked as invalid.
-> * Keep your progress on check on the Hacktoberfest website
+* _Make sure to sign up first to the event website using your GitHub account: [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)_
+* Everyone is welcome! Begginers, veterans, non developpers all around the world!
+* All uploaded projects should got into the **_/Projects_** folder inside their dedicated topic folder e.g: **_/Projects/Web/MyAmazingProject_**
+* Always check the repo's **issues** to avoid duplicates
+* Every contribution is welcome (project upload, code fix, design, tutorials, documentation, fixing typos ...etc) but we prefer **quality over quantity** so avoid making 5 PRs to fix 5 obvious grammar mistakes juste to get the challenge completed faster.
+* If the PR doesnt aligne with the event and the repo's rules then it will be marked as invalid. :x:
 
 ### NOTE!
 Please DO NOT submit random Pull Requests. First check if an issue already exists for the bugs you found or features you want to add and whether someone else is already working on it. If not, create an issue and assign it to yourself.
@@ -75,7 +74,7 @@ That's it, you've done your first contribution and you just got to wait for it t
 `------------------------------------------------------------------`
 ## Getting started - Difficult (using Git terminal)
 
-#### [Get git](https://git-scm.com) for your machine and install it.
+#### [![git](https://img.shields.io/badge/Get-Git-orange?style=for-the-badge&logo=git)](https://git-scm.com) for your machine and install it.
 #### 1) Fork this repo to your own account by clicking the Fork button.
 #### 2) Acess your new fork on your account and clone it:
 ``` Click **Clone or donwload** button and copy the https url link ```
@@ -156,11 +155,13 @@ e.g: Uiversity of Science and Technology Houari Boumediene, Algeria. (USTHB)
 
 ### 2. Adding a personel project
 - Add one of your personal projects to the repo.
-- Add specific feature upgrades you'd like people to add to your projects. (specify it in a labeled issue)
-- Fix or add a personal feature to someone's project.
+- Ask people to add specific features to your projects as a challenge. (specify it in a **labeled issue**:bookmark::pushpin:)
+- Fix a bug :bug: in a project.
+- Add a personal feature to someone's project.
+
 `------------------------------------------------------------------`
 
-### 3. Bonus task: My Octocat challenge!
+### Bonus task: My Octocat challenge! :octocat:
 Build your own Octocat!
 > - **Step 1:** Go to [MyOctocat](https://myoctocat.com/)
 > - **Step 2:** Design your octocat
