@@ -60,13 +60,13 @@ Happy hacking!!
 `------------------------------------------------------------------`
 ## Getting started - Easy (GitHub in-browser tutorial):
 
-#### 1) Fork this repository
+* 1) Fork this repository
 Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
-#### 2) Make your changes
+* 2) Make your changes
 Open the files you want to edit and fix the issues or add features (see challenge tasks bellow). You can use drag&drop to add new files and new folders to the repo.
-#### 3) Commit changes
+* 3) Commit changes
 Commit your changes and add a short explanatory message on your contribution.
-#### 4) Do your Pull Request
+* 4) Do your Pull Request
 Now click on the button Compare & pull request and compare between forks then add your pull request with a comment.
 
 That's it, you've done your first contribution and you just got to wait for it to get merged! You can now do the two remaining challenge tasks!
@@ -74,7 +74,7 @@ That's it, you've done your first contribution and you just got to wait for it t
 `------------------------------------------------------------------`
 ## Getting started - Advanced (using Git terminal)
 
-#### First things firt, go [![git](https://img.shields.io/badge/Get-Git-orange?style=flat-squar&logo=git)](https://git-scm.com) for your machine and install it.
+#### First things firt, go [![git](https://img.shields.io/badge/Get-Git-orange?style=flat-square&logo=git)](https://git-scm.com) for your machine and install it.
 #### 1) Fork this repo to your own account by clicking the Fork button.
 #### 2) Acess your new fork on your account and clone it:
 ``` Click **Clone or donwload** button and copy the https url link ```
