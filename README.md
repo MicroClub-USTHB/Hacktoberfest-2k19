@@ -110,7 +110,7 @@ If you liked this experience Star :star2: the repo (clikc **Star** button near F
 That's it, you just completed yout first contribution and got your first Pull Request!
 All PRs will be merged asap.
 
-![Website](https://img.shields.io/website?color=important&down_message=Hacktoberfest%20progress&label=Check%20profile%27s&logo=github&style=for-the-badge&up_color=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile&up_message=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile&url=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile)
+[![Website](https://img.shields.io/website?color=important&down_message=Hacktoberfest%20progress&label=Check%20profile%27s&logo=github&style=for-the-badge&up_color=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile&up_message=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile&url=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile)](http://hacktoberfest.digitalocean.com/profile)
 
 `------------------------------------------------------------------`
 
