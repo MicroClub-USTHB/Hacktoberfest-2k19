@@ -1,0 +1,2 @@
+This is a java program using Processing JS to give a visual representation for the World Cup Soccer (2018, 2014, ..., 1954) the top scorer and his home country having the same record of goals scored by the same player indicating the number of goals scored and the editions in which he entered them.
+Information of the butters are recovered from a .csv file
