@@ -1,7 +1,7 @@
 # Projects Folder
 ### In this folder you can upload all of your projects as contribution or that you want people to contribute to!
 
-##### INSTRUCTOIONS:
+##### INSTRUCTIONS:
 * Upload your projects inside a dedicated folder (e.g: _/Projects/JavaScripte/**my-javascript-game/**_
 * If you don't find a proper folder for your type of project, then you're free to make one. (e.g:_/Projects/**JavaScripte/my-javascript-game/**_
 * Upload your projects source files (_avoid compressed format .zip .rar or else_).
