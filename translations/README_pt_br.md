@@ -15,11 +15,13 @@
 ![GitHub issues](https://img.shields.io/github/issues-raw/MicroClub-USTHB/Hacktoberfest-2k19?style=for-the-badge)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/MicroClub-USTHB/Hacktoberfest-2k19?style=for-the-badge)
 
+## README Translations
+[EN](README.md), [FR](translations/README_FRENCH.md), [PT](translations/README_pt_br.md)
 
 ## Micro Club está no Hacktoberfest!
 Um repositório didicado aos membros da Micro Club para a 6ª edição do Hacktoberfest (2k19). O propósito deste repo é inserir membros da MC e outros iniciantes na comunidade de código aberto e os ajudar a desenvolver e compartilhar conhecimento com outros estudantes, profissionais e entusiastas enquanto enfrentam um desafio divertido !!
 
-## O que é Hacktoberfest? 
+## O que é Hacktoberfest?
 #### "Mudando a comunidade de código aberto, um pull request por vez."- Digital Ocean.
 Hacktoberfest é uma comemoração que dura entre **1 - 31 de Outubro** patrocinada pela [Digital Ocean](https://www.digitalocean.com/) e [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) para envolver as pessoas no mundo do[Código Aberto](https://github.com/open-source). Este ano, uma plataforma comunitária com gente com todos os níveis de experiência e conhecimento chamada ['DEV'](https://dev.to/) se juntou ao evento como parceira!
 As primeiras **50,000** pessoas em todo o mundo que completarem 4 pull requests em qualquer repo público receberão uma **CAMISA DE EDIÇÃO LIMITADA TOTALMENTE GRÁTIS**
@@ -64,7 +66,7 @@ Bom evento!!
 Faça um "Fork" deste repositório clicando no botão "FORK" no canto superior direito da página. Isso irá criar uma cópia desse projeto na sua conta.
 #### 2) Faça as suas alterações
 Abra os arquivos que você deseja editar, "issues" que quer corrigir ou adicione funcionalidades (veja as tarefas do desafio abaixo). Você pode arrastar e soltar novos arquivos ou pastas nesse repo.
-#### 3) "Comite" as mudanças 
+#### 3) "Comite" as mudanças
 Faça um commit com as suas mudanças e coloque uma curta explicação sobre a sua contribuição.
 #### 4) Faça seu Pull Request
 Agora clique no botão Compare & pull request e compare entre os "forks", então adicione seu pull request com um comentário.
@@ -102,7 +104,7 @@ este comando adiciona todas as mudanças feitas no "branch".
 #### 9) Volta até sua conta do GitHub para finalizar o trabalho
 * Verifique se as mudanças foram carregadas no "fork" da sua conta.
 * Agora envie as mudanças para o repositório do projeto original com um **Pull Request**.
-* ``` Clique no botão "Compare & pull request" ``` 
+* ``` Clique no botão "Compare & pull request" ```
 * Escreva um comentário curto sobre as mudanças que você contribuiu.
 
 ### É isso, você conseguiu!!!
