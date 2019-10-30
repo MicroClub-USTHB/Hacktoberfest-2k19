@@ -1,5 +1,5 @@
 # Projects Folder
-### In this folder you can upload all of your projects as contribution or that u want people to contribute to!
+### In this folder you can upload all of your projects as contribution or that you want people to contribute to!
 
 ##### INSTRUCTOIONS:
 * Upload your projects inside a dedicated folder (e.g: _Hacktoberfest-2k19/Projects/JavaScript/**my-JS-script/**_
