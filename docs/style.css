@@ -34,7 +34,7 @@ ul{
     font-size: 1.5vw;
 }
 li a{
-    margin-left: 2vw;
+    margin: 0 2vw;
     color: #92eaff;
 }
 li a:hover{
