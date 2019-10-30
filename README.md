@@ -5,15 +5,18 @@
 ![Micro Club does Hacktoberfest](https://www.pixenli.com/image/TNHZG723)
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-175x29.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
 ![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2019/MicroClub-USTHB/Hacktoberfest-2k19?color=%23d10fb8&label=Micro%20Club%20does%20Hacktoberfest&style=for-the-badge)
-![GitHub Contributors](https://img.shields.io/github/contributors/MicroClub-USTHB/Hacktoberfest-2k19?logo=GitHub&style=for-the-badge)
 
+![GitHub Contributors](https://img.shields.io/github/contributors/MicroClub-USTHB/Hacktoberfest-2k19?logo=GitHub&style=for-the-badge)
 ![GitHub Watchers](https://img.shields.io/github/watchers/MicroClub-USTHB/Hacktoberfest-2k19?label=Watch&logo=GitHub&style=for-the-badge)
 ![GitHub Stars](https://img.shields.io/github/stars/MicroClub-USTHB/Hacktoberfest-2k19?logo=GitHub&style=for-the-badge)
 ![GitHub Forks](https://img.shields.io/github/forks/MicroClub-USTHB/Hacktoberfest-2k19?label=Forks&logo=GitHub&style=for-the-badge)
+
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/MicroClub-USTHB/Hacktoberfest-2k19?label=Open%20PRs&style=for-the-badge)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/MicroClub-USTHB/Hacktoberfest-2k19?label=closed%20PRs&style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues-raw/MicroClub-USTHB/Hacktoberfest-2k19?style=for-the-badge)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/MicroClub-USTHB/Hacktoberfest-2k19?style=for-the-badge)
+
 
 
 ## Micro Club does Hacktoberfest!
@@ -45,13 +48,12 @@ Here are 3 quick guided ways to contribute to this project:
 Choose one or all 3, make a pull request for your work and wait for it to be merged!
 
 ### Rules:
-> * _Make sure to sign up first to the event website using your GitHub account: [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)_
-> * Everyone is welcome! Begginers, veterans, non developpers all around the world!
-> * All uploaded projects should got into the **_/Projects_** folder inside their dedicated topic folder e.g: **_/Projects/Web_**
-> * Always check the repo's **issues** to avoid duplicates
-> * Every contribution is welcome (project upload, code fix, design, tutorials, documentation, fixing typos ...etc) but we prefer **quality over quantity** so avoid making 5 PRs to fix 5 obvious grammar mistakes juste to get the challenge completed faster.
-> * If the PR doesnt aligne with the event and the repo's rules then it will be marked as invalid.
-> * Keep your progress on check on the Hacktoberfest website
+* _Make sure to sign up first to the event website using your GitHub account: [https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)_
+* Everyone is welcome! Begginers, veterans, non developpers all around the world!
+* All uploaded projects should got into the **_/Projects_** folder inside their dedicated topic folder e.g: **_/Projects/Web/MyAmazingProject_**
+* Always check the repo's **issues** to avoid duplicates
+* Every contribution is welcome (project upload, code fix, design, tutorials, documentation, fixing typos ...etc) but we prefer **quality over quantity** so avoid making 5 PRs to fix 5 obvious grammar mistakes juste to get the challenge completed faster.
+* If the PR doesnt aligne with the event and the repo's rules then it will be marked as invalid. :x:
 
 ### NOTE!
 Please DO NOT submit random Pull Requests. First check if an issue already exists for the bugs you found or features you want to add and whether someone else is already working on it. If not, create an issue and assign it to yourself.
@@ -61,21 +63,21 @@ Happy hacking!!
 `------------------------------------------------------------------`
 ## Getting started - Easy (GitHub in-browser tutorial):
 
-#### Fork this repository
+#### 1) Fork this repository
 Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
-#### Make your changes
+#### 2) Make your changes
 Open the files you want to edit and fix the issues or add features (see challenge tasks bellow). You can use drag&drop to add new files and new folders to the repo.
-#### Commit changes
+#### 3) Commit changes
 Commit your changes and add a short explanatory message on your contribution.
-#### Do your Pull Request
+#### 4) Do your Pull Request
 Now click on the button Compare & pull request and compare between forks then add your pull request with a comment.
 
 That's it, you've done your first contribution and you just got to wait for it to get merged! You can now do the two remaining challenge tasks!
 
 `------------------------------------------------------------------`
-## Getting started - Difficult (using Git terminal)
+## Getting started - Advanced (using Git terminal)
 
-#### [Get git](https://git-scm.com) for your machine and install it.
+#### First things firt, go [![git](https://img.shields.io/badge/Get-Git-orange?style=flat-square&logo=git)](https://git-scm.com) to get started & install it on your machine.
 #### 1) Fork this repo to your own account by clicking the Fork button.
 #### 2) Acess your new fork on your account and clone it:
 ``` Click **Clone or donwload** button and copy the https url link ```
@@ -88,14 +90,14 @@ e.g:
 ##### git clone "your project's url you just copied"
 e.g:
 ``` git clone https://github.com/your_username/Hacktoberfest-2k19.git ```
-#### 5) Add your changes ([See tasks bellow](https://github.com/MicroClub-USTHB/Hacktoberfest-2k19#challenges-to-complete))
+#### 5) Add your changes ([See challenges bellow](https://github.com/MicroClub-USTHB/Hacktoberfest-2k19#challenges-to-complete))
 
 #### 6) Add the staged changes you made to the branch you're working in (master )
 ``` git add . ```
 this commande adds all different changes u made to the branch.
 
 #### 7) Commit your changes with a short comment
-``` git commit -m "update some fiels and fixed bugs" ```
+``` git commit -m "updated some files and fixed bugs" ```
 
 #### 8) Push your changes
 ``` git push origin master```
@@ -111,11 +113,11 @@ If you liked this experience Star :star2: the repo (clikc **Star** button near F
 That's it, you just completed yout first contribution and got your first Pull Request!
 All PRs will be merged asap.
 
-![Website](https://img.shields.io/website?color=important&down_message=Hacktoberfest%20progress&label=Check%20profile%27s&logo=github&style=for-the-badge&up_color=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile&up_message=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile&url=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile)
+[![Website](https://img.shields.io/website?color=important&down_message=Hacktoberfest%20progress&label=Check%20profile%27s&logo=github&style=for-the-badge&up_color=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile&up_message=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile&url=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile)](http://hacktoberfest.digitalocean.com/profile)
 
 `------------------------------------------------------------------`
 
-## CHALLENEGS TO COMPLETE:
+## CHALLENGES TO COMPLETE::
 
 
 ### 1. Add a profile page
@@ -156,11 +158,13 @@ e.g: Uiversity of Science and Technology Houari Boumediene, Algeria. (USTHB)
 
 ### 2. Adding a personel project
 - Add one of your personal projects to the repo.
-- Add specific feature upgrades you'd like people to add to your projects. (specify it in a labeled issue)
-- Fix or add a personal feature to someone's project.
+- Ask people to add specific features to your projects as a challenge. (specify it in a **labeled issue**:bookmark::pushpin:)
+- Fix a bug :bug: in a project.
+- Add a personal feature to someone's project.
+
 `------------------------------------------------------------------`
 
-### 3. Bonus task: My Octocat challenge!
+### Bonus task: My Octocat challenge! :octocat:
 Build your own Octocat!
 > - **Step 1:** Go to [MyOctocat](https://myoctocat.com/)
 > - **Step 2:** Design your octocat
