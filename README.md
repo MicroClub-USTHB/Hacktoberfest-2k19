@@ -2,6 +2,10 @@
 ## 🚀✨ Contribution friendly for Beginners & First timers✨🚀
 ### (open to public contribution)
 
+## Languages
+[French](/translations/README_FRENCH.md)
+[BT_PT](/translations/README_pt_br.md)
+
 ![Micro Club does Hacktoberfest](https://www.pixenli.com/image/TNHZG723)
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-175x29.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
