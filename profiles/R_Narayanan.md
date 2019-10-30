@@ -19,7 +19,6 @@ BITS, Pilani
 
 ### Profile Link
 [r-narayanan](https://github.com/r-narayanan)
-[nrajesh](https://linkedin.com/in/nrajesh)
 
 ### GitHub Page/Website (if availble)
 NA
