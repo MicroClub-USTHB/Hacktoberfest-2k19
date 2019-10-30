@@ -19,11 +19,11 @@
 [EN](README.md), [FR](translations/README_FRENCH.md), [PT](translations/README_pt_br.md)
 
 ## Micro Club está no Hacktoberfest!
-Um repositório didicado aos membros da Micro Club para a 6ª edição do Hacktoberfest (2k19). O propósito deste repo é inserir membros da MC e outros iniciantes na comunidade de código aberto e os ajudar a desenvolver e compartilhar conhecimento com outros estudantes, profissionais e entusiastas enquanto enfrentam um desafio divertido !!
+Um repositório dedicado aos membros da Micro Club para a 6ª edição do Hacktoberfest (2k19). O propósito deste repo é inserir membros da MC e outros iniciantes na comunidade de código aberto e os ajudar a desenvolver e compartilhar conhecimento com outros estudantes, profissionais e entusiastas enquanto enfrentam um desafio divertido !!
 
 ## O que é Hacktoberfest?
 #### "Mudando a comunidade de código aberto, um pull request por vez."- Digital Ocean.
-Hacktoberfest é uma comemoração que dura entre **1 - 31 de Outubro** patrocinada pela [Digital Ocean](https://www.digitalocean.com/) e [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) para envolver as pessoas no mundo do[Código Aberto](https://github.com/open-source). Este ano, uma plataforma comunitária com gente com todos os níveis de experiência e conhecimento chamada ['DEV'](https://dev.to/) se juntou ao evento como parceira!
+Hacktoberfest é uma comemoração que acontece entre **1 - 31 de Outubro** patrocinada pela [Digital Ocean](https://www.digitalocean.com/) e [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) para envolver as pessoas no mundo do[Código Aberto](https://github.com/open-source). Este ano, uma plataforma comunitária com gente de todos os níveis de experiência e conhecimento chamada ['DEV'](https://dev.to/) se juntou ao evento como parceira!
 As primeiras **50,000** pessoas em todo o mundo que completarem 4 pull requests em qualquer repo público receberão uma **CAMISA DE EDIÇÃO LIMITADA TOTALMENTE GRÁTIS**
 
 ### Para mais informações sobre o evento: [Site do Hacktoberfest](https://hacktoberfest.digitalocean.com/)
@@ -38,11 +38,11 @@ As primeiras **50,000** pessoas em todo o mundo que completarem 4 pull requests 
 
 Crie seu primeiro **Pull Request** em qualquer repositório publico no Github e contribuia com a comunidade de desenvolvedores de software livre.
 
-Aqui estãp 3 dicas rápidas de como contribuir neste projeto:
+Aqui estão 3 dicas rápidas de como contribuir neste projeto:
 
 * Adicione uma página de perfil no diretório chamado `/profiles`.
 * Faça o Upload de um projeto seu.
-* [Crie seu próprio Octogato customizado](https://myoctocat.com/) e o insira no diretório `/my-Octocat` com a chance de vê-lo printado como uma figurinha!
+* [Crie seu próprio Octocat customizado](https://myoctocat.com/) e o insira no diretório `/my-Octocat` com a chance de vê-lo printado como uma figurinha!
 
 Escolha um ou os 3, faça um pull request do seu trabalho e espere que ele seja mesclado!
 
@@ -51,11 +51,11 @@ Escolha um ou os 3, faça um pull request do seu trabalho e espere que ele seja 
 * Todos são bem-vindos! Iniciantes, veteranos, e até não-desenvolvedores de todos os cantos do mundo!
 * Todos os uploads de projetos devem ser inseridos na pasta **_/Projects_** dentro de uma pasta com um título dedicado a eles ex: **_/Projects/Web/MeuMaravilhosoProjeto_**
 * Sempre verifique a seção **issues** para evitar duplicatas
-* Toda contribuição é bem vinda (carregar projetos, corrigir código, design, tutoriais, documentação, corrigir erros de digitação... etc), porém nós preferimos **qualidade em vez de quantidade**, então evite fazer 5 PR's para corrigir 5 erros óbvios de digitação apenas para completar o desafio mais rápido.
+* Toda contribuição é bem-vinda (carregar projetos, corrigir código, design, tutoriais, documentação, corrigir erros de digitação... etc), porém nós preferimos **qualidade em vez de quantidade**, então evite fazer 5 PR's para corrigir 5 erros óbvios de digitação apenas para completar o desafio mais rápido.
 * Se o PR não for alinhado com as regras do evento e do repositório, será marcado como inválido. :x:
 
 ### AVISO!
-Por favor não envie Pull Requests aleatórios. Primeiro veja se uma "issue" já existe sobre os bugs que você encontrou ou funcionalidades que você quer fazer e se alguém já está trabalhando nisso. Caso não, crie uma "issue" e atribua a você mesmo.
+Por favor não envie Pull Requests aleatórios. Primeiro veja se uma "issue" já existe sobre os bugs que você encontrou ou funcionalidades que você quer fazer e se alguém já está trabalhando nisso. Caso não, crie uma "issue" e atribua à você mesmo.
 
 Bom evento!!
 
@@ -81,7 +81,7 @@ Agora clique no botão Compare & pull request e compare entre os "forks", então
 #### 2) Acesse seu novo "fork" na sua conta e faça um clone:
 ``` Clique no botão **Clone or donwload** e copie a url```
 #### 3) Vá até o seu terminal do Git Bash e especifique o endereço onde você quer clonar seu projeto:
-``` cd /deritorio ```
+``` cd /diretorio ```
 ex:
 ``` cd C:/Usuarios/Microclubist/Area de trabalho ```
 #### 4) Faça um clone projeto que foi feito o "fork" na sua máquina:
@@ -95,20 +95,20 @@ ex:
 ``` git add . ```
 este comando adiciona todas as mudanças feitas no "branch".
 
-#### 7) "Commite" suas alterações com um curto comentário
+#### 7) "Comite" suas alterações com um curto comentário
 ``` git commit -m "Atualizando alguns arquivos e corrigindo bugs" ```
 
 #### 8) Faça um "Push" das alterações
 ``` git push origin master```
 
-#### 9) Volta até sua conta do GitHub para finalizar o trabalho
+#### 9) Volte até sua conta do GitHub para finalizar o trabalho
 * Verifique se as mudanças foram carregadas no "fork" da sua conta.
 * Agora envie as mudanças para o repositório do projeto original com um **Pull Request**.
 * ``` Clique no botão "Compare & pull request" ```
 * Escreva um comentário curto sobre as mudanças que você contribuiu.
 
 ### É isso, você conseguiu!!!
-Se você gostou dessa experiência, dê uma estrela ness repo :star2: (clique no botão **Star** perto do botão de Fork).
+Se você gostou dessa experiência, dê uma estrela nesse repo :star2: (clique no botão **Star** perto do botão de Fork).
 É isso, você fez sua primeira contribuição e conseguiu seu primeiro Pull Request!
 Todos os PRs serão mesclados o mais rápido possível.
 
@@ -135,7 +135,7 @@ ex: Uiversidade de Ciência e Tecnologia Houari Boumediene, Algeria. (USTHB)
 - Ciência da Computação.
 
 ### Interesses
-* Coisas que você gosta ex:cookies, video games e código.
+* Coisas que você gosta ex:biscoitos, video games e código.
 * Hobbies
 
 ### Desenvolvimento
@@ -164,12 +164,12 @@ ex: Uiversidade de Ciência e Tecnologia Houari Boumediene, Algeria. (USTHB)
 
 `------------------------------------------------------------------`
 
-### Tarefa Bonus: Desafio Meu Octogato! :octocat:
-Faça seu próprio Octogato!
-> - **Passo 1:** Vá até [MeuOctogato](https://myoctocat.com/)
-> - **Passo 2:** Desenhe seu octogato
+### Tarefa Bonus: Desafio Meu Octocat! :octocat:
+Faça seu próprio Octocat!
+> - **Passo 1:** Vá até [MeuOctocat](https://myoctocat.com/)
+> - **Passo 2:** Desenhe seu octocat
 > - **Passo 3:** Estilize e coloque acessórios
-> - **Passo 4:** Salve seu Octogato, coloque no arquivo .png o nome `seuUsuario_NomeDoOctogato.png` ex: `Microclubist_.png`.
+> - **Passo 4:** Salve seu Octocat, coloque no arquivo .png o nome `seuUsuario_NomeDoOctocat.png` ex: `Microclubist_.png`.
 > - **Passo 5:** Compartilhe! Carregue o arquivo na pasta `/myOctocat` e faça um pull request!
 
 `------------------------------------------------------------------`
