@@ -3,6 +3,7 @@
 <head>
 	<title>Micro Club Hacktoberfest</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style2.css">
 </head>
 <body>
 	<h1>Micro Club Hacktoberfest</h1>
@@ -10,10 +11,26 @@
 	<h2>Stuff to add:</h2>
 	<ul>
 		<li><s>Make a basic main page</s><a href="#" download="./index.html">index.html</a></li>
-		<li><s>Format the page with CSS.</s><a href="#" download="./style.css">style.css</a></li>
+		<li>
+			<s>Format the page with CSS.</s><a href="#" download="./style.css">style.css</a> 
+			<label class="switch">
+				<input type="checkbox" checked>
+				<span class="slider "></span>
+			</label>
+		</li>
 		<li><s>add a background</s> <a href="#" download="./Spectrum-Gradient.svg">Spectrum-Gradient.svg</a></li>
 		<li><s>add a new font</s> <a href="#" download="./Whitney-SemiboldItalic.otf">Whitney-SemiboldItalic.otf</a></li>
 		<li>add some interactive Js</li>
 	</ul>
+	<script>
+		var link=document.querySelector("Link"),checkbox=document.querySelector('[type="checkbox"]');
+		checkbox.onclick= e =>{
+			if(checkbox.checked){
+				link.href='style.css';
+			}else{
+				link.href="";
+			}
+		}
+	</script>
 </body>
 </html>
