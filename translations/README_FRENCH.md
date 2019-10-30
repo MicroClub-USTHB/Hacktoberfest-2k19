@@ -2,6 +2,9 @@
 
 Bienvenue dans le dépôt pour les membres du Micro Club. Ce dépôt est dédié à la sixième édition du Hacktoberfest (2k19). L'objectif est d'inciter les membres du Micro Club à s'investir dans la communauté open source, de les aider à développer et partager leurs connaissances avec d'autres étudiants, professionnels et toute personne intéressée par l'open source tout en relevant un défi sympa !!
 
+## README Translations
+[EN](README.md), [FR](translations/README_FRENCH.md), [PT](translations/README_pt_br.md)
+
 ## C'est quoi Hacktobefest?
 #### "Changer la communauté Open Source, un 'pull request' à la fois" -Digital Ocean
 Hacktoberfest est un mois **(du 1 octobre au 31 octobre)** de célébration, sponsporisé par [Digital Ocean](https://www.digitalocean.com/) et [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest), fait pour inciter les gens à s'impliquer dans l'[Open Source](https://github.com/open-source). Cette année, une platforme de la communauté Open Source qui implique plusieurs arrières plans et niveaux d'expériences: ['DEV'](https://dev.to/) a rejoint la fête comme partenaire de l'évènement.
