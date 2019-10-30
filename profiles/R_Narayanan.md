@@ -18,7 +18,7 @@ BITS, Pilani
 - Web site creator.
 
 ### Profile Link
-[r-narayanan](https://github.com/r-narayana)
+[r-narayanan](https://github.com/r-narayanan)
 [nrajesh](https://linkedin.com/in/nrajesh)
 
 ### GitHub Page/Website (if availble)
