@@ -1,0 +1,42 @@
+@font-face{
+    font-family: Whitney;
+    src: url("./Whitney-SemiboldItalic.otf");
+}
+*{
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #e2e2e2;
+}
+body{
+    background-image: url("./Spectrum-Gradient.svg");
+    background-size: cover;
+    margin: 0;
+    padding: 6vw 10vw;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 5vw;
+    width: 30vw;
+    margin: 0 2vw;
+    background: -webkit-linear-gradient(#92eaff, #ff00aa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+    font-size: 1.5vw;
+}
+h2{
+    font-size: 2.5vw;
+    color: #92eaff;
+}
+ul{
+    font-size: 1.5vw;
+}
+li a{
+    margin: 0 2vw;
+    color: #92eaff;
+}
+li a:hover{
+    color: #ff00aa;
+}

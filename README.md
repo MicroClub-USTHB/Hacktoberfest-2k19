@@ -5,37 +5,41 @@
 ![Micro Club does Hacktoberfest](https://www.pixenli.com/image/TNHZG723)
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-175x29.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2019/MicroClub-USTHB/Hacktoberfest-2k19?color=%23d10fb8&label=Micro%20Club%20does%20Hacktoberfest&style=for-the-badge)
 
+![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2019/MicroClub-USTHB/Hacktoberfest-2k19?color=%23d10fb8&label=Micro%20Club%20does%20Hacktoberfest&style=for-the-badge)
 ![GitHub Contributors](https://img.shields.io/github/contributors/MicroClub-USTHB/Hacktoberfest-2k19?logo=GitHub&style=for-the-badge)
+
 ![GitHub Watchers](https://img.shields.io/github/watchers/MicroClub-USTHB/Hacktoberfest-2k19?label=Watch&logo=GitHub&style=for-the-badge)
 ![GitHub Stars](https://img.shields.io/github/stars/MicroClub-USTHB/Hacktoberfest-2k19?logo=GitHub&style=for-the-badge)
 ![GitHub Forks](https://img.shields.io/github/forks/MicroClub-USTHB/Hacktoberfest-2k19?label=Forks&logo=GitHub&style=for-the-badge)
-
-![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/MicroClub-USTHB/Hacktoberfest-2k19?label=Open%20PRs&style=for-the-badge)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/MicroClub-USTHB/Hacktoberfest-2k19?label=closed%20PRs&style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues-raw/MicroClub-USTHB/Hacktoberfest-2k19?style=for-the-badge)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/MicroClub-USTHB/Hacktoberfest-2k19?style=for-the-badge)
 
 
+## README Translations
+[EN](README.md), [FR](translations/README_FRENCH.md), [PT](translations/README_pt_br.md), [ES](translations/README_ES.md), [IND](translations/README_INDONESIA.md)
+
+Link to GithubPage: https://microclub-usthb.github.io/Hacktoberfest-2k19/
+
 
 ## Micro Club does Hacktoberfest!
-A Repository for Micro Club members dedicated for Hacktoberfest 6th edition (2k19). The purpose of this repo is getting MC members and any other begginers into the open source community and help them develop and share projects and knowledge with other students, professionals and open source enthousiasts while having a fun challenge !! 
+A Repository for Micro Club members dedicated for Hacktoberfest 6th edition (2k19). The purpose of this repo is getting MC members and any other begginers into the open source community and help them develop and share projects and knowledge with other students, professionals and open source enthousiasts while having a fun challenge !!
 
-## What is Hacktoberfest? 
-#### "Changing the open source community, one pull request at a time."- Digital Ocean.
+## What is Hacktoberfest?
+> #### "Changing the open source community, one pull request at a time."- Digital Ocean.
+
 Hacktoberfest is a month-long celebration from **October 1st - 31st** sponsored by [Digital Ocean](https://www.digitalocean.com/) and [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). This year an all backgrounds and experience levels open source community platform ['DEV'](https://dev.to/) has joined the party as an event partner!
 The first **50,000** people around the world to complete 4 pull requests contribution to any public repo will recieve a **FREE LIMITED EDITON T-SHIRT & COOL SWAGS!**
 
 ### For more info about the event: [Hacktoberfest event website](https://hacktoberfest.digitalocean.com/)
 
-> - **Hacktoberfest is open to everyone in the global community!**
-> - **Pull requests can be made in any GitHub-hosted repositories/projects.**
-> - **Sign up anytime between October 1 and October 31.**
+> - Hacktoberfest is open to everyone in the global community!
+> - Pull requests can be made in any GitHub-hosted repositories/projects.
+> - Sign up anytime between October 1 and October 31.
 
 
 ## How to participate and contribute to this project?
-![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest%20participation%3A-How%20to%20get%20involved%20and%20win%20that%20AEWSOME%20LIMITED%20EDITION%20T--SHIRT%3F%20Check%20this-orange?style=for-the-badge)
+![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest%20participation%3A-How%20to%20get%20involved%20and%20win%20that%20AWESOME%20LIMITED%20EDITION%20T--SHIRT%3F%20Check%20this-orange?style=for-the-badge)
 
 Create your very first **Pull Request** to any public repository on GitHub and contribute to the open source developer community.
 
@@ -52,8 +56,8 @@ Choose one or all 3, make a pull request for your work and wait for it to be mer
 * Everyone is welcome! Begginers, veterans, non developpers all around the world!
 * All uploaded projects should got into the **_/Projects_** folder inside their dedicated topic folder e.g: **_/Projects/Web/MyAmazingProject_**
 * Always check the repo's **issues** to avoid duplicates
-* Every contribution is welcome (project upload, code fix, design, tutorials, documentation, fixing typos ...etc) but we prefer **quality over quantity** so avoid making 5 PRs to fix 5 obvious grammar mistakes juste to get the challenge completed faster.
-* If the PR doesnt aligne with the event and the repo's rules then it will be marked as invalid. :x:
+* Every contribution is welcome (project upload, code fix, design, tutorials, documentation, fixing typos ...etc) but we prefer **quality over quantity** so avoid making 5 PRs to fix 5 obvious grammar mistakes just to get the challenge completed faster.
+* If the PR doesn't align with the event and the repo's rules then it will be marked as invalid. :x:
 
 ### NOTE!
 Please DO NOT submit random Pull Requests. First check if an issue already exists for the bugs you found or features you want to add and whether someone else is already working on it. If not, create an issue and assign it to yourself.
@@ -77,11 +81,12 @@ That's it, you've done your first contribution and you just got to wait for it t
 `------------------------------------------------------------------`
 ## Getting started - Advanced (using Git terminal)
 
-#### First things firt, go [![git](https://img.shields.io/badge/Get-Git-orange?style=flat-square&logo=git)](https://git-scm.com) to get started & install it on your machine.
+#### First things first, go [![git](https://img.shields.io/badge/Get-Git-orange?style=flat-square&logo=git)](https://git-scm.com) to get started & install it on your machine.
+
 #### 1) Fork this repo to your own account by clicking the Fork button.
-#### 2) Acess your new fork on your account and clone it:
-``` Click **Clone or donwload** button and copy the https url link ```
-#### 3) Head to your Git Bash terminal and specify the derictory where you want to clone your project:
+#### 2) Acess your new fork on your account and clone it -
+    Click Clone or Download button and copy the https url link
+#### 3) Head to your Git Bash terminal or normal terminal in mac and specify the directory where you want to clone your project:
 ``` cd /derictory ```
 e.g:
 ``` cd C:/Users/Microclubist/Desktop ```
@@ -92,12 +97,12 @@ e.g:
 ``` git clone https://github.com/your_username/Hacktoberfest-2k19.git ```
 #### 5) Add your changes ([See challenges bellow](https://github.com/MicroClub-USTHB/Hacktoberfest-2k19#challenges-to-complete))
 
-#### 6) Add the staged changes you made to the branch you're working in (master )
+#### 6) Add the staged changes you made to the branch you're working in (master)
 ``` git add . ```
-this commande adds all different changes u made to the branch.
+This command adds all different changes you made to the branch.
 
 #### 7) Commit your changes with a short comment
-``` git commit -m "updated some files and fixed bugs" ```
+eg. -> ``` git commit -m "updated some files and fixed bugs" ```
 
 #### 8) Push your changes
 ``` git push origin master```
@@ -105,12 +110,12 @@ this commande adds all different changes u made to the branch.
 #### 9) Go back on your GitHub to finalize the work
 * Check if changes were updated to your Fork on your GitHub account.
 * Now submit the changes of your own fork to the original project repo with a **Pull Request**.
-* ``` Click button "Compare & pull request" ``` 
-* Write a short comment about the changes your contributed.
+* Click button ***"Compare & pull request"***
+* Write a short comment about the changes you contributed to the repo.
 
 ### That's it, you Git it!!!
-If you liked this experience Star :star2: the repo (clikc **Star** button near Fork button).
-That's it, you just completed yout first contribution and got your first Pull Request!
+If you liked this experience Star :star2: the repo (click **Star** button near Fork button).
+That's it, you just completed your first contribution and got your first Pull Request!
 All PRs will be merged asap.
 
 [![Website](https://img.shields.io/website?color=important&down_message=Hacktoberfest%20progress&label=Check%20profile%27s&logo=github&style=for-the-badge&up_color=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile&up_message=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile&url=https%3A%2F%2Fhacktoberfest.digitalocean.com%2Fprofile)](http://hacktoberfest.digitalocean.com/profile)
