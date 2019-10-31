@@ -1,0 +1,499 @@
+﻿<UserControl x:Class="PersonalizedScrollBar.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PersonalizedScrollBar"
+             mc:Ignorable="d" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             d:DesignHeight="450" d:DesignWidth="800">
+
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.DataGrid.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Border Padding="5">
+        <Grid ScrollViewer.VerticalScrollBarVisibility="Auto" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <materialDesign:Card Margin="10" Grid.Row="0"   >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Grid.Row="0" Orientation="Vertical">
+                        <TextBlock Foreground="Black" Margin="5" Grid.Row="0" Style="{StaticResource MaterialDesignHeadlineTextBlock}">Open Space</TextBlock>
+
+                        <Expander Margin="5" Grid.Row="2" ExpandDirection="Down" Background="#FFFAFAFA" RenderTransformOrigin="0.5,0.5" BorderBrush="{x:Null}" >
+                            <Expander.Header>
+                                <TextBlock Text="Add Clients" RenderTransformOrigin=".5,.5"/>
+                            </Expander.Header>
+
+                            <StackPanel Orientation="Vertical"
+                                        TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                                        Margin="5">
+
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+
+                                    <Grid Grid.Row="0" >
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <TextBox x:Name="OpenNom" Margin="5,5,10,5" Grid.Column="0" materialDesign:HintAssist.Hint="NOM Prénom" 
+                                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                                                 FontSize="12"/>
+
+                                        <ComboBox x:Name="openPack" Margin="5,14,0,5"  Grid.Column="1" HorizontalAlignment="Left" Width="193">
+                                            <ComboBoxItem IsSelected="True">Pack Heure</ComboBoxItem>
+                                            <ComboBoxItem>Pack Jour</ComboBoxItem>
+                                        </ComboBox>
+
+                                        <ComboBox x:Name="OpenNbPersonne" Margin="5,14,0,5"  Grid.Column="2" HorizontalAlignment="Left" Width="193">
+                                            <ComboBoxItem IsSelected="True">Une Personne</ComboBoxItem>
+                                            <ComboBoxItem>Trois Personnes</ComboBoxItem>
+                                            <ComboBoxItem>Quatres Personnes</ComboBoxItem>
+                                        </ComboBox>
+
+                                        <Button Grid.Column="3" Content="Add" Margin="5"  
+                                                Background="#FFA6CE39" 
+                                                BorderBrush="#FFA6CE39"/>
+
+                                    </Grid>
+                                </Grid>
+
+                                <Separator Margin="5 10 5 5" Grid.Row="1" Background="#FFA6CE39" BorderBrush="#FFA6CE39" OpacityMask="#FFA6CE39"/>
+
+                                <!-- la liste en cours -->
+                                <DataGrid x:Name="gidTab" Margin="0 8 0 0"  
+                                          CanUserSortColumns="False" 
+                                          CanUserAddRows="False" 
+                                          AutoGenerateColumns="False" 
+                                          materialDesign:DataGridAssist.CellPadding="8"
+                                          materialDesign:DataGridAssist.ColumnHeaderPadding="0 5 50 5">
+                                    <DataGrid.Columns>
+
+                                        <!--colmn 1-->
+
+                                        <DataGridTextColumn Binding="{Binding NOM}"              
+                                                            Header="NOM Prénom"/>
+
+                                        <DataGridTextColumn Binding="{Binding PACK}"              
+                                                            Header="Pack"/>
+
+                                        <DataGridTextColumn Binding="{Binding NBRPERS}"              
+                                                            Header="N° Personnes"/>
+
+                                        <DataGridTextColumn Header="Heure Début"
+                                                            Binding="{Binding HEURE}"/>
+
+                                        <DataGridTextColumn Binding="{Binding MONTANT}"              
+                                                            Header="Montant"/>
+
+                                        <DataGridTemplateColumn>
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Button  
+                                                        Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+                                                        ToolTip="MaterialDesignFloatingActionMiniLightButton"
+                                                        Width="30" 
+                                                        Height="30" 
+                                                        Name="B2"
+                                                        Background="#FFBCDC65" BorderBrush="#FFBCDC65">
+                                                        <materialDesign:PackIcon Kind="Stop" Foreground="White" Height="20" Width="20" />
+                                                    </Button>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+
+                                        <DataGridTemplateColumn>
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <Button  
+                                                        Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+                                                        ToolTip="MaterialDesignFloatingActionMiniLightButton"
+                                                        Width="30" 
+                                                        Height="30" 
+                                                        Name="B2"
+                                                        
+                                                        Background="#FFBCDC65" BorderBrush="#FFBCDC65">
+                                                        <materialDesign:PackIcon Kind="Delete" Foreground="White" Height="20" Width="20" />
+                                                    </Button>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                    </DataGrid.Columns>
+
+                                </DataGrid>
+
+                            </StackPanel>
+
+
+                        </Expander>
+
+                    </StackPanel>
+
+                </Grid>
+            </materialDesign:Card>
+
+            <!--RESERVATION DES SALLES **************** -->
+            <materialDesign:Card Margin="10" Grid.Row="1"   >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <!--<RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />-->
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Grid.Row="0" Orientation="Vertical">
+                        <TextBlock Foreground="Black" Margin="5" Grid.Row="0" Style="{StaticResource MaterialDesignHeadlineTextBlock}">Réservation des salles</TextBlock>
+                        <Expander Margin="5" Grid.Row="2" ExpandDirection="Down">
+                            <Expander.Header>
+                                <TextBlock Text="Ajouter une réservation" RenderTransformOrigin=".5,.5"/>
+                            </Expander.Header>
+                            <StackPanel Orientation="Vertical"
+                                        TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                                        Margin="5">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+
+                                    <!--quelle salle-->
+                                    <Grid Grid.Row="0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="7*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <TextBlock Margin="25 0 0 0" Text="Salle à réserver " Grid.Column="0" VerticalAlignment="Center" />
+                                        <ComboBox Margin="5,5,0,5"  Grid.Column="1" HorizontalAlignment="Left" Width="300" VerticalAlignment="Center" >
+                                            <ComboBoxItem IsSelected="True">Premiere Salle</ComboBoxItem>
+                                            <ComboBoxItem>Deuxième salle</ComboBoxItem>
+                                            <ComboBoxItem>Troisième salles</ComboBoxItem>
+                                        </ComboBox>
+                                    </Grid>
+
+                                    <!--infos du client-->
+                                    <Grid Grid.Row="1">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="*"/>
+
+                                        </Grid.RowDefinitions>
+
+                                        <Grid Grid.Row="0">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="10*"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="10*"/>
+                                            </Grid.ColumnDefinitions>
+
+                                            <materialDesign:PackIcon Margin="0,26,5,5" Kind="Account" Grid.Column="0" Foreground="{Binding ElementName=PasswordBox, Path=BorderBrush}" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+
+                                            <TextBox x:Name="RezNom" Grid.Column="1" VerticalAlignment="Center" materialDesign:HintAssist.Hint="NOM" 
+                                                    
+                                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                                                 FontSize="12"
+                                                     Margin="5">
+                                            </TextBox>
+
+                                            <materialDesign:PackIcon Grid.Column="2" Kind="Account" Margin="0,26,2,5" Foreground="{Binding ElementName=PasswordBox, Path=BorderBrush}" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+
+                                            <TextBox x:Name="RezPrenom" Grid.Column="3" VerticalAlignment="Center" materialDesign:HintAssist.Hint="Prénom" 
+                                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                                                 FontSize="12"
+                                                     Margin="5"/>
+
+                                        </Grid>
+
+                                        <Grid Grid.Row="1">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="10*"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="10*"/>
+                                            </Grid.ColumnDefinitions>
+
+                                            <materialDesign:PackIcon Grid.Column="0" Kind="Phone" Margin="0,24,5,7" Foreground="{Binding ElementName=PasswordBox, Path=BorderBrush}" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+
+                                            <TextBox x:Name="RezTel" Grid.Column="1" VerticalAlignment="Center" materialDesign:HintAssist.Hint="Tel" 
+                                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                                                 FontSize="12"
+                                                     Margin="5" />
+
+                                            <materialDesign:PackIcon Grid.Column="2" Kind="Email" Margin="0,26,3,5" Foreground="{Binding ElementName=PasswordBox, Path=BorderBrush}" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+
+                                            <TextBox x:Name="RezEmail" Grid.Column="3" VerticalAlignment="Center" materialDesign:HintAssist.Hint="Email" 
+                                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                                                 FontSize="12"
+                                                     Margin="5" />
+
+                                        </Grid>
+
+                                        <CheckBox Margin="5" Grid.Row="2" Style="{StaticResource MaterialDesignCheckBox}">
+                                            Contrat
+                                        </CheckBox>
+
+                                    </Grid>
+
+                                    <!--date et horaire de réservation (nbr heures)-->
+                                    <Grid Grid.Row="2">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <!--date deb-->
+                                        <DatePicker Grid.Column="0" Width="150" Margin="10" materialDesign:HintAssist.Hint="Date Début" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />
+                                        <!--date fin-->
+                                        <DatePicker Grid.Column="1" Width="150" Margin="10" materialDesign:HintAssist.Hint="Date Fin" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />
+                                        <!--horaire deb-->
+                                        <materialDesign:TimePicker Margin="10" Width="150"
+                                                                   Grid.Column="2"
+                                           Style="{StaticResource MaterialDesignFloatingHintTimePicker}"
+                                           materialDesign:HintAssist.Hint="Heure Début" />
+                                        <!--horaire fin-->
+                                        <materialDesign:TimePicker Margin="10" Width="150"
+                                                                   Grid.Column="3"
+                                           Style="{StaticResource MaterialDesignFloatingHintTimePicker}"
+                                           materialDesign:HintAssist.Hint="Heure Fin" />
+                                    </Grid>
+
+                                    <!--Payement-->
+                                    <Grid Grid.Row="3">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <StackPanel Grid.Column="0" Orientation="Horizontal">
+                                            <CheckBox  Style="{StaticResource MaterialDesignCheckBox}" VerticalAlignment="Center" Margin="5,20,5,9">
+                                                Versement obligatoire de :
+                                            </CheckBox>
+
+                                        </StackPanel>
+
+
+                                    </Grid>
+
+                                    <Button Grid.Row="4" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5" Content="Submit" >
+
+                                    </Button>
+                                </Grid>
+
+                            </StackPanel>
+                        </Expander>
+                    </StackPanel>
+                </Grid>
+            </materialDesign:Card>
+
+            <!--PACK SECRETARIAT *************** -->
+            <materialDesign:Card Margin="10" Grid.Row="2"   >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" Orientation="Vertical">
+                        <TextBlock Foreground="Black" Margin="5" Grid.Row="0" Style="{StaticResource MaterialDesignHeadlineTextBlock}">Pack secrétariat</TextBlock>
+
+
+                        <Expander Margin="5" Grid.Row="2" ExpandDirection="Down">
+                            <Expander.Header>
+                                <TextBlock Text="Attribuer un Pack" RenderTransformOrigin=".5,.5"/>
+                            </Expander.Header>
+                            <StackPanel Orientation="Vertical"
+                                        TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                                        Margin="5">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+
+                                    <!--quelle salle-->
+                                    <Grid Grid.Row="0">
+                                        <CheckBox >Check me</CheckBox>
+                                    </Grid>
+
+                                    <!--infos du client-->
+                                    <Grid Grid.Row="1">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="*"/>
+
+                                        </Grid.RowDefinitions>
+
+                                        <Grid Grid.Row="0">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="3*"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="3*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <StackPanel  Grid.Column="0" Orientation="Horizontal">
+                                                <materialDesign:PackIcon Kind="Account" Margin="5" Foreground="{Binding ElementName=PasswordBox, Path=BorderBrush}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                                <TextBlock Text="Nom " VerticalAlignment="Center" Margin="5"/>
+                                            </StackPanel>
+
+                                            <TextBox x:Name="PackNom" Grid.Column="1" VerticalAlignment="Center" materialDesign:HintAssist.Hint="NOM" 
+                                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                                                 FontSize="12"
+                                                     Margin="5"/>
+
+
+                                            <StackPanel  Grid.Column="2" Orientation="Horizontal">
+                                                <materialDesign:PackIcon Kind="Account" Margin="5" Foreground="{Binding ElementName=PasswordBox, Path=BorderBrush}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                                <TextBlock Text="Prénom " Grid.Column="2" VerticalAlignment="Center" Margin="5"/>
+                                            </StackPanel>
+                                            <TextBox x:Name="PackPrenom" Grid.Column="3" VerticalAlignment="Center" materialDesign:HintAssist.Hint="Prénom" 
+                                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                                                 FontSize="12"
+                                                     Margin="5"/>
+                                        </Grid>
+
+                                        <Grid Grid.Row="1">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="3*"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="3*"/>
+                                            </Grid.ColumnDefinitions>
+
+                                            <StackPanel  Grid.Column="0" Orientation="Horizontal">
+                                                <materialDesign:PackIcon Kind="Phone" Margin="5" Foreground="{Binding ElementName=PasswordBox, Path=BorderBrush}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                                <TextBlock Text="Tel " Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+                                            </StackPanel>
+
+                                            <TextBox x:Name="PackTel" Grid.Column="1" VerticalAlignment="Center" materialDesign:HintAssist.Hint="Tel" 
+                                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                                                 FontSize="12"
+                                                     Margin="5" />
+
+
+                                            <StackPanel  Grid.Column="2" Orientation="Horizontal">
+                                                <materialDesign:PackIcon Kind="Email" Margin="5" Foreground="{Binding ElementName=PasswordBox, Path=BorderBrush}" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                                <TextBlock Text="Email " Grid.Column="2" VerticalAlignment="Center" Margin="5" />
+                                            </StackPanel>
+
+                                            <TextBox x:Name="PackEmail" Grid.Column="3" VerticalAlignment="Center" materialDesign:HintAssist.Hint="Email" 
+                                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                                                 FontSize="12"
+                                                     Margin="5" />
+
+                                        </Grid>
+
+                                        <CheckBox Grid.Row="2" Style="{StaticResource MaterialDesignCheckBox}">
+                                            Contrat
+                                        </CheckBox>
+
+                                    </Grid>
+
+                                    <!--date et horaire de réservation (nbr heures)-->
+                                    <Grid Grid.Row="2">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <!--date deb-->
+                                        <DatePicker Grid.Column="0" Margin="10" materialDesign:HintAssist.Hint="Date Début" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />
+                                        <!--date fin-->
+                                        <DatePicker Grid.Column="1" Margin="10" materialDesign:HintAssist.Hint="Date Fin" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" />
+                                        <!--horaire deb-->
+                                        <materialDesign:TimePicker Margin="10"
+                                                                   Grid.Column="2"
+                                           Style="{StaticResource MaterialDesignFloatingHintTimePicker}"
+                                           materialDesign:HintAssist.Hint="Heure Début" />
+                                        <!--horaire fin-->
+                                        <materialDesign:TimePicker Margin="10"
+                                                                   Grid.Column="3"
+                                           Style="{StaticResource MaterialDesignFloatingHintTimePicker}"
+                                           materialDesign:HintAssist.Hint="Heure Fin" />
+                                    </Grid>
+
+                                    <!--CASIER-->
+                                    <Grid Grid.Row="3">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="7*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <TextBlock Text="Numéro du Casier " Grid.Column="0" VerticalAlignment="Center" />
+                                        <ComboBox Margin="5"  Grid.Column="1" HorizontalAlignment="Left" Width="300" VerticalAlignment="Center" >
+                                            <ComboBoxItem IsSelected="True">Casier 01</ComboBoxItem>
+                                            <ComboBoxItem>Casier 02</ComboBoxItem>
+                                            <ComboBoxItem>Casier 03</ComboBoxItem>
+                                        </ComboBox>
+                                    </Grid>
+
+
+                                    <!--Payement-->
+                                    <Grid Grid.Row="4">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="6*" />
+                                        </Grid.ColumnDefinitions>
+                                        <StackPanel Grid.Column="0" Orientation="Horizontal">
+                                            <CheckBox Style="{StaticResource MaterialDesignCheckBox}" VerticalAlignment="Center" Margin="5">
+                                                Versement obligatoire de :
+                                            </CheckBox>
+
+                                        </StackPanel>
+
+                                        <TextBox Grid.Column="1" VerticalAlignment="Center" materialDesign:HintAssist.Hint="Ajouter a la somme" 
+                                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                                                 FontSize="12"
+                                                 Margin="5"
+                                                 Width="280" HorizontalAlignment="Left"
+                                                 />
+                                    </Grid>
+
+                                    <Button Grid.Row="5" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5" Content="Submit" >
+
+                                    </Button>
+                                </Grid>
+                            </StackPanel>
+                        </Expander>
+                    </StackPanel>
+                </Grid>
+            </materialDesign:Card>
+
+        </Grid>
+    </Border>
+</UserControl>
