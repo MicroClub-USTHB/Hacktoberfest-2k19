@@ -12,7 +12,7 @@ Batna/Algeria
 -PHP developper
 
 ### Profile Link
-[GitHib username](https://github.com/abdulmounaim)
+[Abdulmounaim](https://github.com/abdulmounaim)
 
 ### GitHub Page/Website (if availble)
 [Website](https://abdulmounaim.com/)
