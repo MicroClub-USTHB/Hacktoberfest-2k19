@@ -17,7 +17,7 @@
 
 
 ## README Translations
-[EN](README.md), [FR](translations/README_FRENCH.md), [PT](translations/README_pt_br.md)
+[EN](README.md), [FR](translations/README_FRENCH.md), [PT](translations/README_pt_br.md), [IND](translations/README_INDONESIA.md)
 
 Link to GithubPage: https://microclub-usthb.github.io/Hacktoberfest-2k19/
 
@@ -25,7 +25,7 @@ Link to GithubPage: https://microclub-usthb.github.io/Hacktoberfest-2k19/
 ## Micro Club does Hacktoberfest!
 A Repository for Micro Club members dedicated for Hacktoberfest 6th edition (2k19). The purpose of this repo is getting MC members and any other begginers into the open source community and help them develop and share projects and knowledge with other students, professionals and open source enthousiasts while having a fun challenge !!
 
-## What is Hacktoberfest? 
+## What is Hacktoberfest?
 > #### "Changing the open source community, one pull request at a time."- Digital Ocean.
 
 Hacktoberfest is a month-long celebration from **October 1st - 31st** sponsored by [Digital Ocean](https://www.digitalocean.com/) and [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). This year an all backgrounds and experience levels open source community platform ['DEV'](https://dev.to/) has joined the party as an event partner!
@@ -85,7 +85,7 @@ That's it, you've done your first contribution and you just got to wait for it t
 
 #### 1) Fork this repo to your own account by clicking the Fork button.
 #### 2) Acess your new fork on your account and clone it -
-    Click Clone or Download button and copy the https url link 
+    Click Clone or Download button and copy the https url link
 #### 3) Head to your Git Bash terminal or normal terminal in mac and specify the directory where you want to clone your project:
 ``` cd /derictory ```
 e.g:
@@ -110,7 +110,7 @@ eg. -> ``` git commit -m "updated some files and fixed bugs" ```
 #### 9) Go back on your GitHub to finalize the work
 * Check if changes were updated to your Fork on your GitHub account.
 * Now submit the changes of your own fork to the original project repo with a **Pull Request**.
-* Click button ***"Compare & pull request"*** 
+* Click button ***"Compare & pull request"***
 * Write a short comment about the changes you contributed to the repo.
 
 ### That's it, you Git it!!!
