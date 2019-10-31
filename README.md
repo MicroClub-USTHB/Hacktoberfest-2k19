@@ -181,6 +181,7 @@ Build your own Octocat!
 
 ### Want to do more PullRequests? Here's a quick list for other begginers friendly ressources:
 * [TeamOpenMinds - Oran](https://github.com/open-minds/Hacktober-2019) Our awesome friends from University of Oran scientific club **Team Open Minds** are doing Hacktoberfest too!
+* [OpenMindsClub - USTHB](https://github.com/openmindsclub/H4ckT0b3rF3st-2k19) Can't talk about open source without mentionning our friends at OpenMinds Club who joined Hacktoberfest 2019! 🎃
 * [Up for Grabs](https://up-for-grabs.net/#/) Explore open source projects and jump in!
 * [Issuehub.io](http://issuehub.io/) Contribute to Open Source. Search issue labels to find the right project for you!
 * [First Timers Only](https://www.firsttimersonly.com/) Friendly Open Source projects should reserve specific issues for newbies.
