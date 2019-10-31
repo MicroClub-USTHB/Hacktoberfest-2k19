@@ -15,11 +15,13 @@
 ![GitHub issues](https://img.shields.io/github/issues-raw/MicroClub-USTHB/Hacktoberfest-2k19?style=for-the-badge)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/MicroClub-USTHB/Hacktoberfest-2k19?style=for-the-badge)
 
+## Terjemahan README
+[EN](README.md), [FR](translations/README_FRENCH.md), [PT](translations/README_pt_br.md), [ES](translations/README_ES.md), [IND](translations/README_INDONESIA.md)
 
 ## Micro Club mengadakan Hacktoberfest!
 Repositori untuk anggota Micro Club yang didedikasikan untuk Hacktoberfest edisi ke-6 (2k19). Tujuan dari repositori ini mengaitkan anggota Micro Club dan pemula lainnya ke dalam komunitas open source dan membantu mereka mengembangkan dan berbagi proyek dan pengetahuan dengan siswa lain, profesional-profesional, dan penggemar open source dengan tantangan yang menyenangkan !!
 
-## Apa itu Hacktoberfest? 
+## Apa itu Hacktoberfest?
 #### "Merubah komunitas open source, satu pull request setiap saat"- Digital Ocean.
 Hacktoberfest adalah perayaan bulan yang panjang, Mulai dari tanggal **1 Oktober - 31 Oktober** Disponsori oleh [Digital Ocean](https://www.digitalocean.com/) dan [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) untuk mendapatkan perkembangan pada [Open Source](https://github.com/open-source). Tahun ini semua latar belakang dan komunitas open source berpengalaman ['DEV'](https://dev.to/) juga bergabung dan menjadi bagian pada acara ini!
 **50,000** orang pertama dari berbagai belahan dunia yang menyelesaikan 4 pull request berkontribusi pada repositori publik akan mendapatkan **FREE LIMITED EDITON T-SHIRT & COOL SWAGS**
@@ -32,7 +34,7 @@ Hacktoberfest adalah perayaan bulan yang panjang, Mulai dari tanggal **1 Oktober
 
 
 ## Bagaimana cara berpartisipasi dan berkontribusi pada sebuah project?
-![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest%20participation%3A-How%20to%20get%20involved%20and%20win%20that%20AEWSOME%20LIMITED%20EDITION%20T--SHIRT%3F%20Check%20this-orange?style=for-the-badge)
+![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest%20participation%3A-How%20to%20get%20involved%20and%20win%20that%20AWESOME%20LIMITED%20EDITION%20T--SHIRT%3F%20Check%20this-orange?style=for-the-badge)
 
 Buat **Pull Request** pertamamu ke semua publik direktori di Github dan berkontribusi pada komunitas open source developer.
 
