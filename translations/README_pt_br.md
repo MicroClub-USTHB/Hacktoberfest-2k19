@@ -16,7 +16,7 @@
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/MicroClub-USTHB/Hacktoberfest-2k19?style=for-the-badge)
 
 ## README Translations
-[EN](README.md), [FR](translations/README_FRENCH.md), [PT](translations/README_pt_br.md)
+[EN](README.md), [FR](translations/README_FRENCH.md), [PT](translations/README_pt_br.md), [ES](translations/README_ES.md), [IND](translations/README_INDONESIA.md)
 
 ## Micro Club está no Hacktoberfest!
 Um repositório dedicado aos membros da Micro Club para a 6ª edição do Hacktoberfest (2k19). O propósito deste repo é inserir membros da MC e outros iniciantes na comunidade de código aberto e os ajudar a desenvolver e compartilhar conhecimento com outros estudantes, profissionais e entusiastas enquanto enfrentam um desafio divertido !!
@@ -34,7 +34,7 @@ As primeiras **50,000** pessoas em todo o mundo que completarem 4 pull requests 
 
 
 ## Como participar e contribuir para esse projeto?
-![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest%20participation%3A-How%20to%20get%20involved%20and%20win%20that%20AEWSOME%20LIMITED%20EDITION%20T--SHIRT%3F%20Check%20this-orange?style=for-the-badge)
+![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest%20participation%3A-How%20to%20get%20involved%20and%20win%20that%20AWESOME%20LIMITED%20EDITION%20T--SHIRT%3F%20Check%20this-orange?style=for-the-badge)
 
 Crie seu primeiro **Pull Request** em qualquer repositório publico no Github e contribuia com a comunidade de desenvolvedores de software livre.
 

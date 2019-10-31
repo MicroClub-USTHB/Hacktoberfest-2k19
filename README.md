@@ -17,7 +17,7 @@
 
 
 ## README Translations
-[EN](README.md), [FR](translations/README_FRENCH.md), [PT](translations/README_pt_br.md), [IND](translations/README_INDONESIA.md)
+[EN](README.md), [FR](translations/README_FRENCH.md), [PT](translations/README_pt_br.md), [ES](translations/README_ES.md), [IND](translations/README_INDONESIA.md)
 
 Link to GithubPage: https://microclub-usthb.github.io/Hacktoberfest-2k19/
 
@@ -39,7 +39,7 @@ The first **50,000** people around the world to complete 4 pull requests contrib
 
 
 ## How to participate and contribute to this project?
-![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest%20participation%3A-How%20to%20get%20involved%20and%20win%20that%20AEWSOME%20LIMITED%20EDITION%20T--SHIRT%3F%20Check%20this-orange?style=for-the-badge)
+![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest%20participation%3A-How%20to%20get%20involved%20and%20win%20that%20AWESOME%20LIMITED%20EDITION%20T--SHIRT%3F%20Check%20this-orange?style=for-the-badge)
 
 Create your very first **Pull Request** to any public repository on GitHub and contribute to the open source developer community.
 
