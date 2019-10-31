@@ -7,7 +7,16 @@ Bienvenue dans le dépôt pour les membres du Micro Club. Ce dépôt est dédié
 
 ## C'est quoi Hacktobefest?
 #### "Changer la communauté Open Source, un 'pull request' à la fois" -Digital Ocean
-Hacktoberfest est un mois **(du 1 octobre au 31 octobre)** de célébration, sponsporisé par [Digital Ocean](https://www.digitalocean.com/) et [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest), fait pour inciter les gens à s'impliquer dans l'[Open Source](https://github.com/open-source). Cette année, une platforme de la communauté Open Source qui implique plusieurs arrières plans et niveaux d'expériences: ['DEV'](https://dev.to/) a rejoint la fête comme partenaire de l'évènement.
+Hacktoberfest est un mois **(du 1 octobre au 31 octobre)** de célébration, sponsporisé par [Digital Ocean](https://www.digitalocean.com/) et [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest), fait pour inciter les gens à s'impliquer dans l'[Open Source](https://github.com/open-source). Cette année, une platforme de la communauté Open Source qui implique plusieurs arrières plans et niveaux d'expériences: ['DEV'](https://dev.to/) a rejoint la fête comme partenaire de l'évènement. Les 50 000 premières personnes tout autour du monde à compléter 4 pull requests dans n'importe quel repo public recevra un t-shirt en édition limitée !
+
+### Pour plus d'informations sur l'événement : [site du Hacktoberfest](https://hacktoberfest.digitalocean.com/)
+
+
+## Comment participer et contribuer à ce projet ?
+
+Créez votre propre pull request dans n'importe quel repository public sur GitHub et contribuez à la communauté de développeurs open source.
+
+Voici 3 façons rapides de contribuer à ce projet :
 
 # NOTE
 
