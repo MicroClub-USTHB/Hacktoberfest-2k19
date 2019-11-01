@@ -5,17 +5,17 @@
 ![Micro Club does Hacktoberfest](https://www.pixenli.com/image/TNHZG723)
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-175x29.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://github.com/open-minds/Hacktober-2019/blob/master/LICENSE)
-
 ![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2019/MicroClub-USTHB/Hacktoberfest-2k19?color=%23d10fb8&label=Micro%20Club%20does%20Hacktoberfest&style=for-the-badge)
+[![](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](https://github.com/MicroClub-USTHB/Hacktoberfest-2k19/blob/master/LICENSE)
 ![GitHub Contributors](https://img.shields.io/github/contributors/MicroClub-USTHB/Hacktoberfest-2k19?logo=GitHub&style=for-the-badge)
-
 ![GitHub Watchers](https://img.shields.io/github/watchers/MicroClub-USTHB/Hacktoberfest-2k19?label=Watch&logo=GitHub&style=for-the-badge)
 ![GitHub Stars](https://img.shields.io/github/stars/MicroClub-USTHB/Hacktoberfest-2k19?logo=GitHub&style=for-the-badge)
 ![GitHub Forks](https://img.shields.io/github/forks/MicroClub-USTHB/Hacktoberfest-2k19?label=Forks&logo=GitHub&style=for-the-badge)
+
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/MicroClub-USTHB/Hacktoberfest-2k19?color=%23d7624b&style=for-the-badge)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/MicroClub-USTHB/Hacktoberfest-2k19?color=%23d7624b&style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues-raw/MicroClub-USTHB/Hacktoberfest-2k19?style=for-the-badge)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/MicroClub-USTHB/Hacktoberfest-2k19?style=for-the-badge)
-
 
 ## README Translations
 [EN](README.md), [FR](translations/README_FRENCH.md), [PT](translations/README_pt_br.md), [ES](translations/README_ES.md), [IND](translations/README_INDONESIA.md)
