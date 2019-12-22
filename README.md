@@ -2,7 +2,7 @@
 ## 🚀✨ Contribution friendly for Beginners & First timers✨🚀
 ### (open to public contribution)
 
-![Micro Club does Hacktoberfest](https://www.pixenli.com/image/TNHZG723)
+![Micro Club does Hacktoberfest](https://www.pixenli.com/image/bcDSdMOC)
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-175x29.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 ![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2019/MicroClub-USTHB/Hacktoberfest-2k19?color=%23d10fb8&label=Micro%20Club%20does%20Hacktoberfest&style=for-the-badge)
